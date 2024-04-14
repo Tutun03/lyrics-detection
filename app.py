@@ -9,9 +9,7 @@ from sklearn.exceptions import InconsistentVersionWarning
 
 warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
 
-print(st.__version__)
-import nltk
-nltk.download('punkt')
+
 # Download NLTK stopwords
 nltk.download('stopwords')
 stopwords = set(nltk.corpus.stopwords.words('english'))
